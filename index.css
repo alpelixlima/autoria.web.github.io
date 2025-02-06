@@ -1,0 +1,50 @@
+.menu{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.botao1{
+    background-color: rgb(87, 87, 87);
+    padding: 10px;
+    border: 2px black solid;
+    border-radius: 15px;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-decoration: underline;
+}
+.botao2{
+    background-color: rgb(87, 87, 87);
+    padding: 10px;
+    border: 2px black solid;
+    border-radius: 15px;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-decoration: underline;
+}
+.botao3{
+    background-color: rgb(87, 87, 87);
+    padding: 10px;
+    border: 2px black solid;
+    border-radius: 15px;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-decoration: underline;
+}
+.botao4{
+    background-color: rgb(87, 87, 87);
+    padding: 10px;
+    border: 2px black solid;
+    border-radius: 15px;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-decoration: underline;
+}
+.botao1:hover{
+    color: gray;
+    background-color: brown;
+}
