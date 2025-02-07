@@ -4,6 +4,7 @@
     margin-left: 50px;
     margin-right: 50px;
 }
+
 .botao1{
     background-color: rgb(87, 87, 87);
     padding: 10px;
@@ -14,6 +15,7 @@
     font-size: 20px;
     text-decoration: underline;
 }
+
 .botao2{
     background-color: rgb(87, 87, 87);
     padding: 10px;
@@ -24,6 +26,7 @@
     font-size: 20px;
     text-decoration: underline;
 }
+
 .botao3{
     background-color: rgb(87, 87, 87);
     padding: 10px;
@@ -34,6 +37,7 @@
     font-size: 20px;
     text-decoration: underline;
 }
+
 .botao4{
     background-color: rgb(87, 87, 87);
     padding: 10px;
@@ -44,7 +48,24 @@
     font-size: 20px;
     text-decoration: underline;
 }
+
 .botao1:hover{
     color: gray;
-    background-color: brown;
+    background-color: rgb(5, 180, 28);
 }
+
+.botao2:hover{
+    color: gray;
+    background-color: rgb(5, 180, 28);
+}
+
+.botao3.botao3:hover{
+    color: gray;
+    background-color: rgb(5, 180, 28);
+}
+
+.botao4:hover{
+    color: gray;
+    background-color: rgb(5, 180, 28);
+}
+
