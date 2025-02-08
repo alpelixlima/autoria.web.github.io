@@ -68,4 +68,30 @@
     color: gray;
     background-color: rgb(5, 180, 28);
 }
+h1{
+text-align: center;
+background-color: rgb(204, 207, 0);
+margin: 20px;
+border: 3px solid;
+margin: auto;
+width: fit-content;
+border-radius: 10px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+background-color: rgb(206, 248, 248);
+}
+.tex{
+margin-left: 25%;
+margin-top: 20px;
+margin-right: 25%;
+text-decoration: none;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+background-color: darkgrey;
+border: black solid 5px;
+text-align: center;
+border-radius: 10px;
+
+
+}
 
