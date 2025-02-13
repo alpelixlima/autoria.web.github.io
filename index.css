@@ -133,9 +133,10 @@ footer{
 }
 main{
     border: 2px solid rgb(0, 0, 0);
-    width: 59%;
-    margin-left: 382px;
-    margin-top: 30px;
+    width: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
     background-image: url(Imagens/fundo.jpg);
     border-radius: 15px;
 }
