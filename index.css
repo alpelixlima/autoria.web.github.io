@@ -1,0 +1,152 @@
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: justify;
+    border: 2px rgb(21, 255, 0);
+    border-radius: 5px;
+    background-color: rgb(21, 255, 0);
+    padding: 0px;
+    text-transform: uppercase;
+}
+.titulo{
+    width: 40%;
+    margin-left: 28%;
+    border-radius: 10px;
+}
+.botao1{
+    background-color: rgb(21, 255, 0);
+    padding: 17px;
+    border: 2px rgb(0, 255, 0) solid;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-decoration: underline;
+    letter-spacing: 2px;
+    text-decoration: underline rgb(21, 255, 0);
+    
+}
+.botao2{
+    background-color: rgb(21, 255, 0);
+    padding: 17px;
+    border: 2px rgb(0, 255, 0) solid;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-decoration: underline;
+    letter-spacing: 2px;
+    text-decoration: underline rgb(21, 255, 0);
+}
+.botao3{
+    background-color: rgb(21, 255, 0);
+    padding: 17px;
+    border: 2px rgb(0, 255, 0) solid;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-decoration: underline;
+    letter-spacing: 2px;
+    text-decoration: underline rgb(21, 255, 0);
+}
+.botao4{
+    background-color: rgb(21, 255, 0);
+    padding: 17px;
+    border: 2px rgb(0, 255, 0) solid;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-decoration: underline;
+    letter-spacing: 2px;
+    text-decoration: underline rgb(21, 255, 0);
+}
+.botao1:hover{
+    color: rgb(51, 255, 0);
+    background-color: black;
+    border: 2px greenyellow solid;
+    text-decoration: underline rgb(0, 0, 0);
+}
+.botao2:hover{
+    color: rgb(51, 255, 0);
+    background-color: black;
+    border: 2px greenyellow solid;
+    text-decoration: underline rgb(0, 0, 0);
+}
+.botao3:hover{
+    color: rgb(51, 255, 0);
+    background-color: black;
+    border: 2px greenyellow solid;
+    text-decoration: underline rgb(0, 0, 0);
+}
+.botao4:hover{
+    color: rgb(51, 255, 0);
+    background-color: black;
+    border: 2px greenyellow solid;
+    text-decoration: underline rgb(0, 0, 0);
+}
+body{
+    background-color: black;
+}
+footer{
+    margin-top: 30%;
+    background-color: rgb(61, 61, 61);
+    color: rgb(11, 196, 11);
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 20px;
+    text-align: center;
+    padding: 10px;
+}
+.historia{
+    background-color: rgba(0, 0, 0, 0.863);
+    text-align: center;
+    color: rgb(14, 248, 14);
+    text-align: justify;
+    width: 1000px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 15px;
+    border: 2px rgba(0, 0, 0, 0) solid;
+    height: 450px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+.titleHistoria{
+    color: rgb(1, 235, 13);
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.863);
+    border: 2px rgb(0, 255, 21) solid;
+    width: 200px;
+    margin-left: 36%;
+    border-radius: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 6px;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.notch{
+    float: left;
+    border: 2px solid black;
+    border-radius: 40px;
+}
+main{
+    border: 2px solid rgb(0, 0, 0);
+    width: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    background-image: url(Imagens/fundo.jpg);
+    border-radius: 15px;
+}
+.texto1{
+    margin-top: 50px;
+}
+.lado{
+    background-color: aliceblue;
+    width: 50px;
+}
+aside{
+    background-color: aliceblue;
+}

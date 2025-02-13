@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="titulo">
+        <center><img src="Imagens/MinecraftTitulo.jpg" alt="Error" width="80%" height="200"></center>
+    </div>
+    <div>
+
+    <nav class="menu">
+        <a href="#"><p class="botao1" id="mostrarBtn">Origem</p></a>
+        <a href="#"><p class="botao2" id="mostrarBtn2">Objetivo</p></a>
+        <a href="#"><p class="botao3" id="mostrarBtn3">Personagens</p></a>
+        <a href="#"><p class="botao4" id="mostrarBtn4">Linguagem Usada</p></a>
+    </nav>
+  
+    <main>
+    <div id="hISTORIA" style="display: none;">
+    <h1 class="titleHistoria">Origem</h1>
+    <div class="historia">
+      <img src="Imagens/notch2.jpg" alt="error" width="20%" height="40%" class="notch">
+        <p class="texto1">O desenvolvedor sueco Markus "Notch" Persson queria criar um jogo fora dos padrões de jogos comuns e populares de sua época, pois achava mais interessante 
+          "criar mundos interativos de trabalho do que criar cenários bonitos", levando o desenvolvimento de Minecraft como um verdadeiro projeto.</p>
+    </div>
+    </div>
+
+    <div id="oRigem" style="display: none;">
+    <h1 class="titleHistoria">Objetivo</h1>
+    <div class="historia">
+      <img src="Imagens/objetivo.jpg" alt="error" width="20%" height="40%" class="notch">
+        <p class="texto1">Seu objetivo é coletar recursos (madeira, rochas, minérios, carvão, alimentos) e construir 
+          ferramentas e abrigos cada vez melhores para sobreviver e se
+           salvar dos monstros que surgem durante a noite. Mas não é só de sobrevivência que o jogo se trata. Minecraft é também sobre exploração e constante evolução.</p>
+    </div>
+    </div>
+
+    <div id="pErsonagens" style="display: none;">
+    <h1 class="titleHistoria">Personagens</h1>
+    <div class="historia">
+      <img src="Imagens/alexesteve.jpg" alt="error" width="20%" height="40%" class="notch">
+      <p class="texto1">Além dos protagonistas de Minecraft: Steve e Alex, jogo conta com diversos tipos de mobs, criaturas que podem ser aliadas ou inimigos</p>
+    </div>
+    </div>
+
+    <div id="linguagem" style="display: none;">
+    <h1 class="titleHistoria">Linguagem Usada</h1>
+    <div class="historia">
+      <img src="Imagens/java.png" alt="error" width="20%" height="40%" class="notch">
+      <p class="texto1">A linguagem de codificação principal que o Minecraft usa é Java.
+        Para gerar um mundo diferente a cada vez, o jogo usa números aleatórios gerados a partir de uma semente. 
+        No entanto, a pura aleatoriedade torna o terreno e os biomas muito caóticos e sem continuidade. Para resolver esse problema, 
+        o jogo utiliza algoritmos de ruído gradiente, como o ruído Perlin.</p>
+    </div>
+    </div>
+    </main>  
+    <aside>
+        
+    </aside>
+    <script>
+        const mostrarBtn = document.getElementById('mostrarBtn');
+        const HISTORIA = document.getElementById('hISTORIA');
+    
+        mostrarBtn.addEventListener('click', function() {
+          if (hISTORIA.style.display === 'none' || hISTORIA.style.display === '') {
+            hISTORIA.style.display = 'block';
+          } else {
+            hISTORIA.style.display = 'none';
+          }
+        });
+      </script>
+    <script>
+        const mostrarBtn3 = document.getElementById('mostrarBtn3');
+        const pErsonagens = document.getElementById('pErsonagens');
+    
+        mostrarBtn3.addEventListener('click', function() {
+          if (pErsonagens.style.display === 'none' || pErsonagens.style.display === '') {
+            pErsonagens.style.display = 'block';
+          } else {
+            pErsonagens.style.display = 'none';
+          }
+        });
+      </script>
+    <script>
+        const mostrarBtn4 = document.getElementById('mostrarBtn4');
+        const linguagem = document.getElementById('linguagem');
+    
+        mostrarBtn4.addEventListener('click', function() {
+          if (linguagem.style.display === 'none' || linguagem.style.display === '') {
+            linguagem.style.display = 'block';
+          } else {
+            linguagem.style.display = 'none';
+          }
+        });
+      </script>
+        <script>
+        const mostrarBtn2 = document.getElementById('mostrarBtn2');
+        const oRigem = document.getElementById('oRigem');
+    
+        mostrarBtn2.addEventListener('click', function() {
+          if (oRigem.style.display === 'none' || oRigem.style.display === '') {
+            oRigem.style.display = 'block';
+          } else {
+            oRigem.style.display = 'none';
+          }
+        });
+      </script>
+
+    <footer>INFO1V ALUNOS: Gabriel Duarte, Alpelix 2025</footer>
+</div>
+</body>
+</html>
